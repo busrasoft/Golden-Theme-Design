@@ -147,7 +147,8 @@ line-height: 100px;
 
 /* About Us */
 #aboutUs {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 30px;
 }
 
 .aboutUs-top h3 { 
@@ -436,9 +437,11 @@ textarea {
  }
 
 @media (max-width: 767.98px) { 
+
     .navbar-collapse {
         background-color: rgba(0, 0, 0, 0.3);
     }
+
     .navbar-light .navbar-toggler {
         border: 1px solid #fed136;
     }
@@ -447,7 +450,6 @@ textarea {
         margin-top: 250px;
         font-size: 30px;
         margin-bottom:20px;
-
     }
 
     h2 {
@@ -459,6 +461,27 @@ textarea {
     .card {
         padding-left: 15%;
         padding-right: 15%;
+    }
+
+    .aboutUs-content:before {
+        content: " ";
+        width: 0;
+    }
+
+    #aboutUs {
+        padding-bottom: 0;
+    }
+    
+    #partner .col-md-3 {
+        margin: 20px 0;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .company-social-icons {
+        margin-right: 25px;
     }
  }
 
